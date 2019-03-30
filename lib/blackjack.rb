@@ -1,9 +1,10 @@
 def welcome
   # code #welcome here
-end
+  puts "Welcome to the Blackjack Table"
 
 def deal_card
   # code #deal_card here
+  Math.rand(1..11)
 end
 
 def display_card_total
